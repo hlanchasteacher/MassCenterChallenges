@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafíos del Centro de Masas</title>
+    <!-- Carga de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Carga de la fuente Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Aplicamos la fuente Inter a todo el cuerpo */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Pequeño ajuste para que los vídeos se muestren correctamente */
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800 antialiased">
+
+    <div class="container mx-auto p-4 sm:p-8 max-w-6xl">
+
+        <!-- Título Principal -->
+        <header class="text-center mb-10">
+            <h1 class="text-3xl md:text-5xl font-bold text-blue-700">
+                Desafíos de Física: Centro de Masas
+            </h1>
+            <p class="text-lg md:text-xl text-gray-600 mt-2">
+                Mira cada vídeo y luego ¡inténtalo tú mismo!
+            </p>
+        </header>
+
+        <!-- Cuadrícula de Desafíos -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+
+            <!-- Desafío 1 -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl">
+                <div class="p-5">
+                    <h2 class="text-2xl font-semibold text-blue-600 mb-3">
+                        Desafío 1: La Presión del Pulgar
+                    </h2>
+                </div>
+                <!-- Contenedor del vídeo con aspect ratio -->
+                <div class="aspect-video bg-black">
+                    <video class="w-full h-full" controls playsinline>
+                        <!-- Asegúrate de que el archivo se llama 'Challenge1.mp4' -->
+                        <source src="Challenge1.mp4" type="video/mp4">
+                        Tu navegador no soporta la etiqueta de vídeo.
+                    </video>
+                </div>
+            </div>
+
+            <!-- Desafío 2 -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl">
+                <div class="p-5">
+                    <h2 class="text-2xl font-semibold text-blue-600 mb-3">
+                        Desafío 2: El Levantamiento de Silla
+                    </h2>
+                </div>
+                <div class="aspect-video bg-black">
+                    <video class="w-full h-full" controls playsinline>
+                        <!-- Asegúrate de que el archivo se llama 'Challenge2.mp4' -->
+                        <source src="Challenge2.mp4" type="video/mp4">
+                        Tu navegador no soporta la etiqueta de vídeo.
+                    </video>
+                </div>
+            </div>
+
+            <!-- Desafío 3 -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl">
+                <div class="p-5">
+                    <h2 class="text-2xl font-semibold text-blue-600 mb-3">
+                        Desafío 3: La Moneda
+                    </h2>
+                </div>
+                <div class="aspect-video bg-black">
+                    <video class="w-full h-full" controls playsinline>
+                        <!-- Asegúrate de que el archivo se llama 'Challenge3.mp4' -->
+                        <source src="Challenge3.mp4" type="video/mp4">
+                        Tu navegador no soporta la etiqueta de vídeo.
+                    </video>
+                </div>
+            </div>
+
+            <!-- Desafío 4 -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl">
+                <div class="p-5">
+                    <h2 class="text-2xl font-semibold text-blue-600 mb-3">
+                        Desafío 4: La Elevación de Pierna
+                    </h2>
+                </div>
+                <!-- 
+                  NOTA: No has proporcionado un archivo de vídeo para el Desafío 4.
+                  Si tienes uno, nómbralo 'Challenge4.mp4' y descomenta el bloque de vídeo de abajo.
+                -->
+                <div class="aspect-video bg-gray-800 flex items-center justify-center">
+                    <p class="text-white text-center p-4">Vídeo de demostración no disponible. Sigue las instrucciones escritas.</p>
+                </div>
+                <!-- 
+                <div class="aspect-video bg-black">
+                    <video class="w-full h-full" controls playsinline>
+                        <source src="Challenge4.mp4" type="video/mp4">
+                        Tu navegador no soporta la etiqueta de vídeo.
+                    </video>
+                </div> 
+                -->
+            </div>
+
+        </div> <!-- Fin de la cuadrícula -->
+
+        <!-- Enlace a la Hoja de Cálculo -->
+        <footer class="text-center mt-12 p-6 bg-white rounded-xl shadow-lg">
+            <p class="text-xl font-semibold mb-4">
+                ¿Ya has completado los desafíos?
+            </p>
+            <a href="https://colegiozuloagaedu-my.sharepoint.com/:x:/g/personal/henar_lanchas_agoraism_com/ERpmtKclWlhCgc5j1zr87mEBsQto1vPECx0tRY-EtwGfow?e=Dih89h"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="inline-block bg-green-600 text-white font-bold py-3 px-8 rounded-lg text-lg transition-all duration-300 hover:bg-green-700 hover:scale-105">
+                Rellena la Hoja de Cálculo Cooperativa
+            </a>
+        </footer>
+
+    </div> <!-- Fin del contenedor principal -->
+
+</body>
+</html>
